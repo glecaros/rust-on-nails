@@ -30,7 +30,7 @@ Comment that back in and rebuild your devcontainer. This will setup the node_mod
 Also in your `.devcontainer/Dockerfile` uncomment the following line.
 
 ```Dockerfile
-#RUN sudo mkdir -p /workspace/crates/asset-pipeline/node_modules && sudo chown $USERNAME:$USERNAME /workspace/crates/asset-pipeline/node_modules
+#RUN sudo mkdir -p /workspace/crates/asset-pipeline/node_modules && sudo chown -R $USERNAME:$USERNAME /workspace/crates/asset-pipeline
 ```
 
 ## .gitignore
